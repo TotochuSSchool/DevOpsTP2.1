@@ -1,0 +1,9 @@
+services:
+  convos:
+    image: ghcr.io/convos-chat/convos:alpha
+    container_name: convos_app
+    ports:
+      - "2021:3000"
+    volumes:
+      - ./convos-data:/home/convos/data
+    restart: unless-stopped

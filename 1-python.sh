@@ -1,1 +1,1 @@
-docker container run --rm -i python:3 python
+docker container run --rm -it python:3
